@@ -1,6 +1,6 @@
 """
 #----------------------------------------------------------------------------------------------------------------------------------------------
-# Lesson 1: Introduction to If/Else Statements
+# Lesson 1: Introduction to If/Else Statements.
 
 
 # Python If/Else Statement Example

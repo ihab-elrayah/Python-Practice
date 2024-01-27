@@ -694,19 +694,32 @@ else:
     print(result)
 finally:
     print("This will always execute")
+"""
 #---------------------------------------------------------------------------------------------------------------------------------------------- 
 """
+# Lesson 30: File Existence Checking and Sorting Implementation
 
-"""
-#file sorting
+# Importing the os module, which provides a way of using operating system dependent functionality.
 import os
 
-path = "C:\\icloud\\Desktop\\thinkorswim"
+# Define the path to the directory you want to check.
+# Note: Always use raw strings (prefix with 'r') or double backslashes for Windows paths to avoid escape character issues.
+path = r"C:\icloud\Desktop\text.file"
 
+# Check if the specified path exists using os.path.exists
 if os.path.exists(path):
+    # If the path exists, this block of code will execute
     print("Exist")
 else:
-    print("no")
+    # If the path does not exist, this block of code will execute
+    print("no") 
+
+# Additional Implementation (not included in the original snippet):
+# If the purpose is to sort or organize files within the directory (as suggested by the lesson title),
+# you would implement additional logic here to read the files in the directory and sort or organize them
+# as required. This could involve listing all files, filtering them based on certain criteria (like file type),
+# and then performing actions like moving or renaming them.
+
 """
 #---------------------------------------------------------------------------------------------------------------------------------------------- 
 

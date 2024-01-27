@@ -649,7 +649,29 @@ print(f"Encrypted original message: {cipher_text}")
 print(f"Original message: {plain_text}")
 #---------------------------------------------------------------------------------------------------------------------------------------------- 
 """
+#----------------------------------------------------------------------------------------------------------------------------------------------
 
+"""
+import random
+
+def correct(userNum, randNum):
+    if userNum == randNum:
+        print(f"Your guess was correct: {userNum}")
+        return True
+    else:
+        print(f"Your guess was wrong. The correct number was: {randNum}")
+        return False
+
+randNum = random.randint(1, 2)
+
+while True:
+    userNum = int(input("Guess a random number between 1 and 2: "))
+    if correct(userNum, randNum):
+        break
+
+print("Thanks For Playing")
+"""
+#----------------------------------------------------------------------------------------------------------------------------------------------
 """
 #----------------------------------------------------------------------------------------------------------------------------------------------
 #Lesson 29: Handling Exceptions in Python
@@ -674,3 +696,17 @@ finally:
     print("This will always execute")
 #---------------------------------------------------------------------------------------------------------------------------------------------- 
 """
+
+"""
+#file sorting
+import os
+
+path = "C:\\icloud\\Desktop\\thinkorswim"
+
+if os.path.exists(path):
+    print("Exist")
+else:
+    print("no")
+"""
+#---------------------------------------------------------------------------------------------------------------------------------------------- 
+

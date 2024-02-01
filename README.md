@@ -1,5 +1,5 @@
 ## Python Programming Lessons
-This repository contains a series of Python programming lessons ranging from beginner to intermediate levels. Each lesson introduces a new concept or builds upon previous concepts to help learners progress in their Python programming journey.
+      This repository contains a series of Python programming lessons ranging from beginner to intermediate levels. Each lesson introduces a new concept or builds upon previous concepts to help learners progress in their Python programming journey.
 
 ### Table of Contents
 - Introduction to If/Else Statements 

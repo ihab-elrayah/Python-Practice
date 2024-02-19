@@ -10,7 +10,7 @@ This repository contains a series of Python programming lessons ranging from beg
 - Handling Invalid Inputs and Float Values 
 - Calculating Compound Interest with Input Validation
 - Validating Credit Card Numbers (Luhn Algorithm)
-- Iterating Over a Set
+- Iterating Over a Set 
 - Creating a Shopping Cart with Dynamic Inputs
 - Nested Lists and Modifying Elements
 - Iterating Through a Nested Tuple
